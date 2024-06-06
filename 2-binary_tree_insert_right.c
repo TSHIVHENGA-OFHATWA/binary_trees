@@ -7,7 +7,6 @@
  *
  * Return: Pointer to the created node, or NULL on failure or if parent is NULL
  */
-
 binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
 {
 	if (parent == NULL)
